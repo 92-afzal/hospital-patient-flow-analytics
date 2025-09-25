@@ -79,7 +79,8 @@ The solution follows a **multi-layered lakehouse architecture**:
 
 ### 🔹 Architecture Diagram
 
-![Data Engineering Pipeline](./199e1604-89eb-4301-b216-652c586b06e0.png)
+<img width="4719" height="2432" alt="architecture" src="https://github.com/user-attachments/assets/f452b87e-da29-423d-ab25-8ee3c5ddebb5" />
+
 
 ---
 
@@ -148,7 +149,8 @@ The **Gold layer** in Synapse follows a **Star Schema**:
 
 ### 🔹 Power BI Dashboard
 
-![Patient Flow Dashboard](./13f88a9c-8336-4ccc-bdf8-cb58b49cac1e.png)
+<img width="1282" height="724" alt="BI" src="https://github.com/user-attachments/assets/d6757893-488f-4f99-a3ed-e3160cd9ddf1" />
+
 
 ---
 
