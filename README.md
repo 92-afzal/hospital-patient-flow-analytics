@@ -25,3 +25,11 @@ The pipeline ingests **streaming patient events**, processes them in **Azure Dat
 4. Build dashboards in Power BI.  
 
 ---
+## 🎯 Objectives  
+- Collect **real-time patient data** via Azure Event Hub.  
+- Process and cleanse data using **Databricks (PySpark)**.  
+- Organize curated datasets into a **Star Schema** in Synapse.  
+- Enable **version control** with Git.  
+- Visualize **hospital KPIs** in **Power BI**.  
+
+---
