@@ -35,7 +35,7 @@ The pipeline ingests **streaming patient events**, processes them in **Azure Dat
 ---
 
 ## 📂 Project Structure  
-```bash
+```
 real-time-patient-flow-azure/
 │
 ├── databricks-notebooks/        # Transformation notebooks
@@ -51,10 +51,10 @@ real-time-patient-flow-azure/
 │
 ├── git_commands/                # Git version control commands
 └── README.md                    # Project documentation
+---
+## 🛠️ Tools & Technologies
 
-🛠️ Tools & Technologies
-
-Azure Event Hub → Real-time data ingestion
+- Azure Event Hub → Real-time data ingestion
 
 Azure Databricks → PySpark-based ETL processing
 
@@ -68,7 +68,7 @@ Python 3.9+ → Data simulation
 
 Git → Version control
 
-📐 Data Architecture
+## 📐 Data Architecture
 
 The solution follows a multi-layered lakehouse architecture:
 
