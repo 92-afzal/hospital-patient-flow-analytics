@@ -33,3 +33,21 @@ The pipeline ingests **streaming patient events**, processes them in **Azure Dat
 - Visualize **hospital KPIs** in **Power BI**.  
 
 ---
+
+## 📂 Project Structure  
+```bash
+real-time-patient-flow-azure/
+│
+├── databricks-notebooks/        # Transformation notebooks
+│   ├── 01_bronze_rawdata.py
+│   ├── 02_silver_cleandata.py
+│   └── 03_gold_transform.py
+│
+├── simulator/                   # Data simulation scripts
+│   └── patient_flow_generator.py
+│
+├── sqlpool-queries/             # SQL scripts for Synapse
+│   └── SQL_pool_queries.sql
+│
+├── git_commands/                # Git version control commands
+└── README.md                    # Project documentation
