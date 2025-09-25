@@ -51,3 +51,29 @@ real-time-patient-flow-azure/
 │
 ├── git_commands/                # Git version control commands
 └── README.md                    # Project documentation
+
+🛠️ Tools & Technologies
+
+Azure Event Hub → Real-time data ingestion
+
+Azure Databricks → PySpark-based ETL processing
+
+Azure Data Lake Storage (ADLS Gen2) → Data lake (Bronze, Silver, Gold)
+
+Azure Synapse SQL Pool → Data warehouse for analytics
+
+Power BI → Dashboarding & reporting
+
+Python 3.9+ → Data simulation
+
+Git → Version control
+
+📐 Data Architecture
+
+The solution follows a multi-layered lakehouse architecture:
+
+Bronze Layer → Raw JSON data from Event Hub.
+
+Silver Layer → Cleaned & structured data (type validation, null handling).
+
+Gold Layer → Aggregated & transformed data ready for BI consumption.
